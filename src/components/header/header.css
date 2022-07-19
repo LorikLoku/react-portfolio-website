@@ -1,0 +1,39 @@
+header {
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ===========================  CTA ================================= */
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ==================== MEDIA QUERIES FOR MEDIUM DEVICES =========================== */
+@media screen and (max-width: 1024px) {
+    header {
+        margin-bottom: -10rem;
+    }
+}
+
+/* ==================== MEDIA QUERIES FOR MEDIUM DEVICES =========================== */
+@media screen and (max-width: 900px) {
+    header {
+        margin-bottom: -20rem;
+    }
+}
+
+/* ==================== MEDIA QUERIES FOR SMALL DEVICES =========================== */
+@media screen and (max-width: 600px) {
+    header {
+        margin-bottom: -25rem;
+    }
+}

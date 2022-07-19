@@ -1,0 +1,21 @@
+.certificate {
+    background: var(--color-bg-variant);
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition) !important;
+}
+
+.certificate:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.certificate__image img{
+    padding: 0 0.5rem;
+    border-radius: 1.5rem;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary);
+}
